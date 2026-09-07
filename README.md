@@ -1,35 +1,37 @@
 # Sulong
 
-AI/ML developer focused on turning model experiments into practical systems — APIs, retrieval pipelines, computer-vision demos, and reinforcement-learning prototypes.
+**AI/ML developer building practical systems across RAG, computer vision, semantic retrieval, and reinforcement learning.**
 
-I enjoy building end-to-end projects around **RAG & LLM applications**, **computer vision**, **semantic retrieval**, and **learning-based optimization**.
+I like taking ideas beyond notebooks: turning models into APIs, searchable knowledge systems, interactive demos, and reproducible experiments.
 
-## Selected work
+### What I'm working on
 
-| Project | What it demonstrates |
-| --- | --- |
-| [Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant) | FastAPI + Chroma + Neo4j + LLM-backed document-aware chat, with upload and streaming APIs. |
-| [Aegis Financial Intelligence Dashboard](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard) | Local-first public-news ingestion, event classification, SQLite persistence, dashboarding, and optional LLM assistance. |
-| [Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation) | DeepLabV3+-based road-flood semantic segmentation with a Gradio visualization and heuristic risk report. |
-| [Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder) | SentenceTransformers + FAISS semantic retrieval with a Streamlit UI and PCA/Plotly visualization. |
-| [CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning) | CLIP visual encoding, LSTM caption decoding, progressive fine-tuning, and beam-search generation. |
-| [EV Dispatching with DQN](https://github.com/Su-long-ai/Electric-vehicle-dispatching-with-assisted-wireless-charging-of-public-buses) | Reinforcement-learning route scheduling under battery, time, and in-motion charging constraints. |
+- **RAG & LLM systems** — document ingestion, vector retrieval, graph context, streaming APIs
+- **Computer vision** — segmentation, multimodal captioning, real-time inference
+- **Semantic retrieval** — embeddings, FAISS, ranking and search-oriented applications
+- **Learning-based optimization** — reinforcement learning for constrained routing and decision making
 
-## Focus areas
+## Selected projects
 
-- **LLM systems:** RAG, document ingestion, vector search, graph-backed context, API design
-- **Computer vision:** semantic segmentation, image captioning, facial-expression recognition
-- **Retrieval:** dense embeddings, FAISS, semantic search, ranking-oriented prototypes
-- **Reinforcement learning:** DQN-based routing and constrained decision making
+| Project | Stack | Focus |
+| --- | --- | --- |
+| **[Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant)** | FastAPI · Chroma · Neo4j · LangChain | Document-aware RAG backend with uploads, vector retrieval, graph context and streaming chat APIs. |
+| **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Python · SQLite · LLM | Local-first public-news ingestion, event classification, persistence and dashboarding. |
+| **[Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation)** | PyTorch · DeepLabV3+ · Gradio | Road-flood semantic segmentation with visual overlays and heuristic risk reporting. |
+| **[Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder)** | SentenceTransformers · FAISS · Streamlit | Dense semantic retrieval for “remember the plot, forgot the title” queries. |
+| **[CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning)** | CLIP · PyTorch · LSTM | Image captioning with progressive encoder fine-tuning and beam-search decoding. |
+| **[EV Dispatching with DQN](https://github.com/Su-long-ai/Electric-vehicle-dispatching-with-assisted-wireless-charging-of-public-buses)** | PyTorch · DQN | Route scheduling under battery, deadline and in-motion charging constraints. |
 
 ## Toolbox
 
-`Python` · `PyTorch` · `FastAPI` · `LangChain` · `Chroma` · `Neo4j` · `FAISS` · `OpenCV` · `Streamlit` · `Gradio` · `SQLite`
+**Core:** Python · PyTorch · FastAPI · OpenCV  
+**Retrieval / LLM:** LangChain · Chroma · Neo4j · FAISS · SentenceTransformers  
+**Apps / data:** Streamlit · Gradio · SQLite · NumPy · pandas
 
-## Repository philosophy
+## How I maintain public repos
 
-I keep public repositories source-focused: generated caches, local credentials, datasets, model weights, and other large artifacts are excluded unless redistribution is appropriate. Project READMEs document what is included, what is external, and how to reproduce the core workflow.
+I keep portfolio repositories source-focused and reproducible. Credentials, datasets, model weights, caches and generated artifacts stay out of Git unless redistribution is appropriate; each project README explains dependencies, external assets and the core workflow.
 
 ---
 
-*Currently exploring stronger retrieval/RAG architectures, multimodal models, and practical AI systems that are useful beyond a notebook.*
+**Currently exploring:** stronger retrieval/RAG architectures, multimodal systems, and AI applications that are useful beyond a notebook.
