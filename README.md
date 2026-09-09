@@ -36,14 +36,15 @@ These three repositories best represent my current direction:
 
 ## Toolbox
 
-**ML / AI:** Python · PyTorch · NumPy · pandas · OpenCV · sequence modeling · reinforcement learning  
-**LLM / Retrieval:** FastAPI · LangChain · Chroma · Neo4j · FAISS · SentenceTransformers · MCP-style tools  
-**Applications / Systems:** SQLite · Streamlit · Gradio · PySide6 · REST APIs · CLI tooling  
-**Foundations:** C/C++ · data structures & algorithms
+- **ML / AI:** Python · PyTorch · NumPy · pandas · OpenCV · sequence modeling · reinforcement learning
+- **LLM / Retrieval:** FastAPI · LangChain · Chroma · Neo4j · FAISS · SentenceTransformers · MCP-style tools
+- **Applications / Systems:** SQLite · Streamlit · Gradio · PySide6 · REST APIs · CLI tooling
+- **Foundations:** C/C++ · data structures & algorithms
 
 ## Target roles
 
-**AI/ML Research Engineer · AI Agent Engineer · AI Application Algorithm Engineer**  
+**AI/ML Research Engineer · AI Agent Engineer · AI Application Algorithm Engineer**
+
 Also interested in **multimodal / CV** and **retrieval / search** roles where strong experimentation and engineering both matter.
 
 ## Awards
