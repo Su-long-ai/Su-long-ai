@@ -1,37 +1,46 @@
 # Sulong
 
-**AI/ML developer building practical systems across RAG, computer vision, semantic retrieval, and reinforcement learning.**
+**AI/ML Research Engineer · AI Agent Engineer**
 
-I like taking ideas beyond notebooks: turning models into APIs, searchable knowledge systems, interactive demos, and reproducible experiments.
+I build reproducible machine-learning experiments and practical AI systems — from structured sequence modeling and evaluation protocols to RAG, tool-using agents, semantic retrieval, computer vision, and deployable APIs.
 
-### What I'm working on
+I care about the parts that are easy to skip in demos: data leakage, failure analysis, reproducibility, testable interfaces, privacy boundaries, and honest evaluation.
 
-- **RAG & LLM systems** — document ingestion, vector retrieval, graph context, streaming APIs
-- **Computer vision** — segmentation, multimodal captioning, real-time inference
-- **Semantic retrieval** — embeddings, FAISS, ranking and search-oriented applications
-- **Learning-based optimization** — reinforcement learning for constrained routing and decision making
+## Featured projects
 
-## Selected projects
-
-| Project | Stack | Focus |
+| Project | Stack | What it demonstrates |
 | --- | --- | --- |
-| **[Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant)** | FastAPI · Chroma · Neo4j · LangChain | Document-aware RAG backend with uploads, vector retrieval, graph context and streaming chat APIs. |
-| **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Python · SQLite · LLM | Local-first public-news ingestion, event classification, persistence and dashboarding. |
-| **[Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation)** | PyTorch · DeepLabV3+ · Gradio | Road-flood semantic segmentation with visual overlays and heuristic risk reporting. |
-| **[Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder)** | SentenceTransformers · FAISS · Streamlit | Dense semantic retrieval for “remember the plot, forgot the title” queries. |
-| **[CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning)** | CLIP · PyTorch · LSTM | Image captioning with progressive encoder fine-tuning and beam-search decoding. |
-| **[EV Dispatching with DQN](https://github.com/Su-long-ai/Electric-vehicle-dispatching-with-assisted-wireless-charging-of-public-buses)** | PyTorch · DQN | Route scheduling under battery, deadline and in-motion charging constraints. |
+| **[Rhythm Chart Generation Research](https://github.com/Su-long-ai/rhythm-chart-generation-research)** | PyTorch · NumPy · sequence modeling | Public research extraction with typed 4K event legality, causal lane-recency priors, a multi-head sequence/context critic, and identity-grouped leakage-safe OOF utilities. |
+| **[Multimodal Desktop Agent](https://github.com/Su-long-ai/multimodal-desktop-agent)** | Python · LLM · MCP-style tools · memory | Modular agent core with provider abstraction, memory fallback, collision-safe tool routing, bounded tool loops, and privacy-conscious multimodal adapter boundaries. |
+| **[Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant)** | FastAPI · Chroma · Neo4j · LangChain | Document ingestion, OCR fallback, vector retrieval, graph context, tool-using chat, and streaming API endpoints. |
+| **[Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder)** | SentenceTransformers · FAISS · Streamlit | Dense multilingual semantic retrieval with offline index construction and interactive nearest-neighbor search. |
+| **[Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation)** | PyTorch · DeepLabV3+ · Gradio | Semantic segmentation training/inference pipeline with visual overlays and an interactive demo. |
+| **[CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning)** | CLIP · PyTorch · LSTM | Multimodal captioning with progressive encoder fine-tuning and beam-search decoding. |
+
+## Research & engineering habits
+
+- **Leakage-aware evaluation** — group-disjoint splits, train-only transforms, explicit held-out boundaries.
+- **Falsification over metric chasing** — retain negative/inconclusive runs and separate diagnostics from quality claims.
+- **Reproducibility** — fixed seeds, frozen protocols/manifests, artifact hashes, deterministic checks where possible.
+- **AI systems beyond notebooks** — APIs, retrieval systems, agent tools, long-term-memory fallbacks, interactive applications.
+- **Public/private discipline** — private data, copyrighted media, credentials, voiceprints, model artifacts, and third-party binaries stay out of public portfolio repositories.
 
 ## Toolbox
 
-**Core:** Python · PyTorch · FastAPI · OpenCV  
-**Retrieval / LLM:** LangChain · Chroma · Neo4j · FAISS · SentenceTransformers  
-**Apps / data:** Streamlit · Gradio · SQLite · NumPy · pandas
+**ML / AI:** Python · PyTorch · NumPy · pandas · OpenCV · reinforcement learning  
+**LLM / Retrieval:** FastAPI · LangChain · Chroma · Neo4j · FAISS · SentenceTransformers · MCP-style tools  
+**Applications:** Streamlit · Gradio · PySide6 · SQLite  
+**Foundations:** C/C++ · data structures & algorithms
 
-## How I maintain public repos
+## Awards
 
-I keep portfolio repositories source-focused and reproducible. Credentials, datasets, model weights, caches and generated artifacts stay out of Git unless redistribution is appropriate; each project README explains dependencies, external assets and the core workflow.
+- **16th Lanqiao Cup, Jiangsu Division — First Prize**, C/C++ Programming, University Group B (2025)
+- **2025 AIComp Provincial Selection — Third Prize**, algorithm challenge on predicting/recommending users' potential book borrowing
+
+## About the private work
+
+Some of my larger research and desktop-integration workspaces remain private because they contain local datasets, copyrighted media references, player/user-derived evaluation artifacts, machine-specific tooling, or third-party assets. The public repositories above are intentionally **sanitized, runnable extractions** that expose the architecture and engineering ideas without publishing material that should stay private.
 
 ---
 
-**Currently exploring:** stronger retrieval/RAG architectures, multimodal systems, and AI applications that are useful beyond a notebook.
+**Current focus:** research-grade ML evaluation, AI agents, multimodal systems, and retrieval/RAG systems that are useful beyond a notebook.
