@@ -20,10 +20,23 @@ My focus is not just getting a demo to run. I care about the engineering around 
 | **[Agentic Research Control Plane](https://github.com/Su-long-ai/agentic-research-control-plane)** | SHA-bound candidate promotion, Lead gates, prospective protocol/runner/auditor freezing and fail-closed audit promotion | **Agent research infrastructure · reproducibility · evaluation governance** |
 | **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Local-first event intelligence pipeline with rule fallback, optional LLM enrichment, SQLite audit trail, CLI and dashboard | **LLM applications · structured reasoning · auditable pipelines** |
 
-## Agent infrastructure utilities
+## Where to start by role
 
-- **[Human-Gated Multi-Agent Supervisor](https://github.com/Su-long-ai/human-gated-agent-supervisor)** — leases, heartbeats, isolated agent state, mailboxes, explicit human gates and resumable generations.
-- **[OpenAI-Compatible MCP Bridge](https://github.com/Su-long-ai/openai-compatible-mcp-bridge)** — minimal Streamable HTTP MCP adapter for OpenAI-compatible model endpoints with offline mock testing.
+| If you are hiring for | Open first | Then |
+| --- | --- | --- |
+| **AI Agent / LLM Application** | [Multimodal Desktop Agent](https://github.com/Su-long-ai/multimodal-desktop-agent) | [Human-Gated Supervisor](https://github.com/Su-long-ai/human-gated-agent-supervisor) · [MCP Bridge](https://github.com/Su-long-ai/openai-compatible-mcp-bridge) |
+| **RAG / AI Backend** | [Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant) | [Multimodal Desktop Agent](https://github.com/Su-long-ai/multimodal-desktop-agent) |
+| **Agent Infrastructure / Evaluation** | [Human-Gated Supervisor](https://github.com/Su-long-ai/human-gated-agent-supervisor) | [Agentic Research Control Plane](https://github.com/Su-long-ai/agentic-research-control-plane) |
+| **Applied ML / Algorithm** | [Rhythm Chart Generation Research](https://github.com/Su-long-ai/rhythm-chart-generation-research) | [Agentic Research Control Plane](https://github.com/Su-long-ai/agentic-research-control-plane) |
+
+## Public verification snapshot
+
+- **Multimodal Desktop Agent:** 5/5 public tests pass; ruff clean.
+- **Human-Gated Multi-Agent Supervisor:** 9/9 state/coordination tests pass; ruff clean.
+- **Medical RAG Assistant:** 17/17 tests pass; ruff clean.
+- **Rhythm Chart Generation Research:** 7/7 public tests pass; ruff clean.
+- **Agentic Research Control Plane:** 7/7 promotion/control tests pass; ruff clean.
+- **OpenAI-Compatible MCP Bridge:** 3 validation tests + offline smoke test + real MCP client/server E2E pass; ruff clean.
 
 ## Selected private research systems
 
