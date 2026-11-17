@@ -32,10 +32,10 @@ My focus is not just getting a demo to run. I care about the engineering around 
 ## Public verification snapshot
 
 - **Multimodal Desktop Agent:** 5/5 public tests pass; ruff clean.
-- **Human-Gated Multi-Agent Supervisor:** 9/9 state/coordination tests pass; ruff clean.
+- **Human-Gated Multi-Agent Supervisor:** 10/10 state/coordination tests pass; ruff clean.
 - **Medical RAG Assistant:** 17/17 tests pass; ruff clean.
 - **Rhythm Chart Generation Research:** 7/7 public tests pass; ruff clean.
-- **Agentic Research Control Plane:** 7/7 promotion/control tests pass; ruff clean.
+- **Agentic Research Control Plane:** 8/8 promotion/control tests pass; ruff clean.
 - **OpenAI-Compatible MCP Bridge:** 3 validation tests + offline smoke test + real MCP client/server E2E pass; ruff clean.
 
 ## Selected private research systems
