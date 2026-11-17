@@ -19,6 +19,11 @@ My focus is not just getting a demo to run. I care about the engineering around 
 | **[Rhythm Chart Generation Research](https://github.com/Su-long-ai/rhythm-chart-generation-research)** | Structured sequence-modeling research with deterministic legality checks, causal lane-recency priors, multi-head diagnostics and group-disjoint OOF evaluation | **PyTorch · sequence modeling · leakage-aware evaluation** |
 | **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Local-first event intelligence pipeline with rule fallback, optional LLM enrichment, SQLite audit trail, CLI and dashboard | **LLM applications · structured reasoning · auditable pipelines** |
 
+## Agent infrastructure utilities
+
+- **[Human-Gated Multi-Agent Supervisor](https://github.com/Su-long-ai/human-gated-agent-supervisor)** — leases, heartbeats, isolated agent state, mailboxes, explicit human gates and resumable generations.
+- **[OpenAI-Compatible MCP Bridge](https://github.com/Su-long-ai/openai-compatible-mcp-bridge)** — minimal Streamable HTTP MCP adapter for OpenAI-compatible model endpoints with offline mock testing.
+
 ## Selected private research systems
 
 Some of my largest systems stay private because they contain local datasets, copyrighted media references, user-derived evaluation artifacts, or machine-specific integrations. I publish the engineering ideas without exposing material that should remain private.
