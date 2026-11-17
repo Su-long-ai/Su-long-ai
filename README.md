@@ -1,61 +1,97 @@
 # Sulong
 
-**AI/ML Research Engineer · AI Agent Engineer**
+**AI Agent / Applied AI Engineer · ML Research**
 
-I build reproducible machine-learning experiments and practical AI systems — from structured sequence modeling and leakage-aware evaluation to RAG, tool-using agents, multimodal applications, semantic retrieval, and deployable APIs.
+I build **agentic AI systems, RAG backends, long-term memory, multimodal applications, and reproducible ML research pipelines**.
 
-I care about the parts that are easy to skip in demos: **data leakage, failure analysis, reproducibility, testable interfaces, privacy boundaries, and honest evaluation**.
+My focus is not just getting a demo to run. I care about the engineering around it: **tool orchestration, memory, retrieval quality, evaluation, data leakage, reproducibility, privacy boundaries, and failure analysis**.
 
-## Start here
+> **2027 graduate · Artificial Intelligence major**  
+> Target roles: **AI Agent Engineer · AI Application Algorithm Engineer · Applied AI / ML Engineer**
 
-These three repositories best represent my current direction:
+## Recruiter quick scan
 
-| Flagship project | Focus | What it demonstrates |
+| Project | What I built | What it demonstrates |
 | --- | --- | --- |
-| **[Rhythm Chart Generation Research](https://github.com/Su-long-ai/rhythm-chart-generation-research)** | ML research / sequence modeling | Typed 4K event representation, deterministic legality checks, causal lane-recency priors, a multi-head playability critic, identity-grouped OOF evaluation, and explicit leakage boundaries. |
-| **[Multimodal Desktop Agent](https://github.com/Su-long-ai/multimodal-desktop-agent)** | Agent engineering | Modular LLM provider layer, bounded tool loops, MCP-style tool namespaces, memory fallbacks, voice/avatar adapters, and privacy-conscious integration boundaries. |
-| **[Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant)** | RAG / AI backend | FastAPI document ingestion, deterministic document routing, Chroma retrieval, optional graph/web context, safer tool boundaries, streaming delivery, and offline tests. |
+| **[Multimodal Desktop Agent](https://github.com/Su-long-ai/multimodal-desktop-agent)** | Agent orchestration core with pluggable LLM providers, MCP-style tool namespaces, bounded tool loops, memory backends, voice/avatar adapters and offline tests | **Agent engineering · tool use · memory · modular architecture** |
+| **[Medical RAG Assistant](https://github.com/Su-long-ai/medical-rag-assistant)** | FastAPI RAG backend with bounded document ingestion, Chroma retrieval, deterministic routing, optional read-only Neo4j context and SSE streaming | **RAG · AI backend · retrieval · API engineering** |
+| **[Rhythm Chart Generation Research](https://github.com/Su-long-ai/rhythm-chart-generation-research)** | Structured sequence-modeling research with deterministic legality checks, causal lane-recency priors, multi-head diagnostics and group-disjoint OOF evaluation | **PyTorch · sequence modeling · leakage-aware evaluation** |
+| **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Local-first event intelligence pipeline with rule fallback, optional LLM enrichment, SQLite audit trail, CLI and dashboard | **LLM applications · structured reasoning · auditable pipelines** |
 
-## Selected systems & algorithms
+## Selected private research systems
 
-| Project | Stack | Portfolio signal |
-| --- | --- | --- |
-| **[Aegis Financial Intelligence](https://github.com/Su-long-ai/aegis-financial-intelligence-dashboard)** | Python · SQLite · optional LLM · CLI/dashboard | Event-driven information pipeline with deterministic rule fallback, source credibility logic, auditable reasoning records, optional LLM enrichment, notifications, and a modular package structure. |
-| **[Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder)** | SentenceTransformers · FAISS · Streamlit | Multilingual dense retrieval, normalized cosine-style search, artifact/schema validation, and lightweight offline tests. |
-| **[CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning)** | CLIP · PyTorch · LSTM | Image-first teacher-forcing alignment, progressive encoder fine-tuning, CPU/CUDA beam search, explicit data CLIs, and safer checkpoint handling. |
-| **[Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation)** | PyTorch · DeepLabV3+ · Gradio | Portable segmentation training/inference pipeline, deterministic image-mask pairing, visual flood-coverage reporting, and evidence-conscious removal of unsupported physical depth claims. |
-| **[EV Wireless-Charging DQN](https://github.com/Su-long-ai/ev-wireless-charging-dqn)** | PyTorch · DQN · NumPy | Shared train/eval state encoding, graph action masking, battery/deadline dynamics, wireless-charging transitions, checkpoint metadata, and deterministic environment tests. |
+Some of my largest systems stay private because they contain local datasets, copyrighted media references, user-derived evaluation artifacts, or machine-specific integrations. I publish the engineering ideas without exposing material that should remain private.
 
-## How I work
+### Multi-Agent Autonomous Research & Evaluation Platform
 
-- **Leakage-aware evaluation** — group-disjoint splits, train-only transforms, explicit held-out boundaries.
-- **Falsification over metric chasing** — retain negative/inconclusive runs and separate diagnostics from quality claims.
-- **Reproducibility** — fixed seeds, frozen protocols/manifests, artifact hashes, deterministic checks where practical.
-- **AI systems beyond notebooks** — APIs, retrieval pipelines, agent tools, local applications, persistence, and CLI workflows.
-- **Public/private discipline** — private data, copyrighted media, credentials, voiceprints, large model artifacts, and third-party binaries stay out of public portfolio repositories.
+A research platform for coordinating multiple AI research workers under reproducible experiment governance.
 
-## Toolbox
+- isolated Scientist workspaces and task ownership;
+- Lead promotion gates for research results;
+- protocol / runner / auditor freezing before formal experiments;
+- artifact hashing and traceable handoffs;
+- deterministic independent auditing before downstream promotion;
+- explicit separation between research, paper validation and live execution.
 
-- **ML / AI:** Python · PyTorch · NumPy · pandas · OpenCV · sequence modeling · reinforcement learning
-- **LLM / Retrieval:** FastAPI · LangChain · Chroma · Neo4j · FAISS · SentenceTransformers · MCP-style tools
-- **Applications / Systems:** SQLite · Streamlit · Gradio · PySide6 · REST APIs · CLI tooling
-- **Foundations:** C/C++ · data structures & algorithms
+**Signal:** multi-agent orchestration, research infrastructure, reproducibility, fail-closed evaluation.
 
-## Target roles
+### Persistent AI Identity & Long-Term Memory System
 
-**AI/ML Research Engineer · AI Agent Engineer · AI Application Algorithm Engineer**
+A model-independent persistent identity and memory prototype for long-running AI interaction.
 
-Also interested in **multimodal / CV** and **retrieval / search** roles where strong experimentation and engineering both matter.
+- event-sourced identity history and traceable long-term memories;
+- human-confirmed memory promotion and versioned persona evolution;
+- provider-independent model switching;
+- portable identity export / restore;
+- offline regression tests and external long-term-memory evaluation;
+- explicit separation between initial persona, observed events and retrieved memories.
+
+**Signal:** stateful agents, long-term memory, evaluation, provenance and local-first system design.
+
+### Large-Scale Rhythm-Chart Generation Workspace
+
+The full private research workspace behind the public rhythm-chart showcase.
+
+- audio/MIR evidence extraction and temporal opportunity detection;
+- typed gesture and lane-state modeling;
+- long-note duration / release scheduling;
+- difficulty-aware generation and simplification;
+- replay, playability and human-reference diagnostics;
+- preregistration, ablations and falsification-oriented experiments.
+
+**Signal:** research depth, structured sequence modeling, experimental discipline.
+
+More detail: **[Private Research Highlights](PRIVATE_RESEARCH_HIGHLIGHTS.md)**
+
+## Engineering strengths
+
+- **Agent systems:** provider abstraction, tool orchestration, bounded execution loops, memory adapters, MCP-style integrations
+- **RAG / retrieval:** document ingestion, vector search, deterministic routing, evidence-aware synthesis, graph context
+- **ML research:** PyTorch, sequence modeling, CV, RL, leakage-aware splits, grouped OOF evaluation
+- **Backend / systems:** FastAPI, SQLite, REST/SSE, CLI tooling, local-first applications
+- **Evaluation:** frozen protocols, deterministic checks, negative-result retention, reproducible experiment structure
+- **Foundations:** Python, C/C++, data structures & algorithms
+
+## Other projects
+
+- **[Semantic Movie Finder](https://github.com/Su-long-ai/semantic-movie-finder)** — multilingual dense retrieval with SentenceTransformers + FAISS
+- **[CLIP + LSTM Image Captioning](https://github.com/Su-long-ai/clip-lstm-image-captioning)** — image captioning with CLIP features, LSTM decoding and beam search
+- **[Flood Road Segmentation](https://github.com/Su-long-ai/flood-road-segmentation)** — DeepLabV3+ segmentation pipeline with deterministic data pairing
+- **[EV Wireless-Charging DQN](https://github.com/Su-long-ai/ev-wireless-charging-dqn)** — DQN environment with graph action masking and deterministic tests
 
 ## Awards
 
 - **16th Lanqiao Cup, Jiangsu Division — First Prize**, C/C++ Programming, University Group B (2025)
 - **2025 AIComp Provincial Selection — Third Prize**, algorithm challenge on predicting/recommending users' potential book borrowing
 
-## About the private work
+## How I work
 
-Some larger research and desktop-integration workspaces remain private because they contain local datasets, copyrighted media references, player/user-derived evaluation artifacts, machine-specific tooling, or third-party assets. The public repositories above are intentionally **sanitized, runnable extractions** that expose the architecture and engineering ideas without publishing material that should stay private.
+I prefer **testable systems over impressive-looking demos**:
 
----
+- keep evaluation boundaries explicit;
+- separate deterministic rules from learned components;
+- preserve negative and inconclusive results;
+- make private/public boundaries intentional;
+- turn experiments into reproducible workflows rather than one-off notebooks.
 
-**Current focus:** research-grade ML evaluation, AI agents, multimodal systems, and retrieval/RAG systems that are useful beyond a notebook.
+**Current focus:** AI agents, RAG, persistent memory, multimodal systems, and research-grade evaluation.
